@@ -1,0 +1,59 @@
+.header {
+  background-color: #1565c0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  height: 56px;
+  position: relative;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.userArea {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.avatarButton {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.avatarButton:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.avatarIcon {
+  width: 32px;
+  height: 32px;
+  color: #ffffff;
+}
+
+.arrow {
+  font-size: 10px;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0 16px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+}

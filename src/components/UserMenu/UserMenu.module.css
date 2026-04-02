@@ -1,0 +1,29 @@
+.menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+  min-width: 130px;
+}
+
+.menuList {
+  list-style: none;
+  margin: 0;
+  padding: 8px 0;
+}
+
+.menuItem {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333333;
+  white-space: nowrap;
+}
+
+.menuItem:hover {
+  color: #1565c0;
+  text-decoration: underline;
+}

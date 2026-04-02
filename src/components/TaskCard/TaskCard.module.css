@@ -1,0 +1,33 @@
+.card {
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 10px 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  cursor: grab;
+  user-select: none;
+}
+
+.card:active {
+  cursor: grabbing;
+}
+
+.dragging {
+  opacity: 0.4;
+}
+
+.title {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  color: #333333;
+  text-align: left;
+  cursor: pointer;
+  width: 100%;
+  line-height: 1.4;
+}
+
+.title:hover {
+  color: #1565c0;
+}
